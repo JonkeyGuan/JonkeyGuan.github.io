@@ -15,7 +15,7 @@ To access charts from this from the cli repository add it:
 ```sh
 helm repo add strangiato https://jonkeyguan.github.io/helm-charts/
 helm repo update
-helm upgrade -i [release-name] strangiato/mlflow-server
+helm upgrade -i [release-name] jonkeyguan/mlflow-server
 ```
 
 To include a chart from this repository in an umbrella chart, include it in your dependencies in your `Chart.yaml` file.
@@ -38,7 +38,7 @@ dependencies:
 
 ## Source Code
 
-* <https://github.com/jonkeyguan/helm-charts/tree/main/charts/mlflow-server>
+* <https://github.com/JonkeyGuan/JonkeyGuan.github.io/tree/main/helm-charts/mlflow-server>
 * <https://github.com/jonkeyguan/mlflow-server>
 
 ## Requirements
